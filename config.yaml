@@ -1,0 +1,31 @@
+gitlab:
+  host: https://gitlab-host.com
+  auth-token: service-token-here
+
+artifactory:
+  host: https://artifactory-host.com
+  username: service-user
+  password: service-password
+  api:
+    endpoint: http://artifactory-host/artifactory/api
+    access-token: service-api-token
+ 
+spinnaker:
+  host: https://spinnaker-host.com  # api endpoint
+  deck: https://spinnaker-host.com  # gui endpoint
+
+jira:
+  host: https://jira-host.com
+  username: service-user
+  password: service-password
+
+kubernetes:
+  cluster1:
+    host: x.x.x.x # k8s api server
+    port: 1234  # k8s api server port
+    api-key: k8s-api-key  # service account token
+  cluster2:
+    host: x.x.x.x # k8s api server
+    port: 1234  # k8s api server port
+    api-key: k8s-api-key  # service account token
+  

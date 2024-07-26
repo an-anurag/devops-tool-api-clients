@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "devops-tool-api-clients"
+version = "0.1.0"
+description = "This is API clients for well known tools from devops domain"
+authors = ["Anurag Gundappa <an.anurag@msn.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+paramiko = "^3.4.0"
+jira = "^3.8.0"
+python-gitlab = "^4.8.0"
+kubernetes = "^30.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
