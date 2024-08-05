@@ -103,6 +103,6 @@ class ArtifactoryAPI:
 
 if __name__ == '__main__':
     arti = ArtifactoryAPI()
-    response = arti.copy_artifact("agalaxy-symphony-helm-local", "agalaxy-symphony-helm-prod", "aga-sflowtool")
+    response = arti.copy_artifact("some-local-repo", "some-local-repo-2", "image-name")
     print(response)
 
